@@ -1,0 +1,20 @@
+body{
+    width: 100%;
+    height:100%;
+}
+.wrapper{
+    height:100%;
+    width:100%;
+}
+header>img{
+    height: 60px;
+    width:60x;
+}
+header>a>img{
+    height: 60px;
+    width:60x;
+}
+footer>.social-media>span>a>img{
+    height: 20px;
+    width: 22px;
+}

@@ -1,0 +1,8 @@
+.city-images>span>img{
+    height: 150px;
+    width: 150px;
+}
+.city-images>span>a>img{
+    height: 150px;
+    width: 150px;
+}
