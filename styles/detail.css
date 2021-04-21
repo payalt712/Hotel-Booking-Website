@@ -1,4 +1,16 @@
 .content>img{
     height:500px;
     width:500px;
+    margin-top: 2%;
+}
+.content{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+form{
+    margin-bottom: 1%;
+}
+.hotel-description{
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
