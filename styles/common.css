@@ -3,23 +3,57 @@ body{
     height:100%;
     margin:0;
     background-color: #e0e0e0;
-}
-header, footer{
-    background-color: rosybrown;
+    font-family: 'Ubuntu', sans-serif;
 }
 .wrapper{
     height:100%;
     width:100%;
 }
-header>img{
-    height: 60px;
-    width:60x;
+.footer{
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    height:64px;
 }
-header>a>img{
-    height: 60px;
-    width:60x;
+.header{
+    background-color: rosybrown;
+    position: sticky;
+    top: 0;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-footer>.social-media>span>a>img{
+img.header-logo{
+    height: 60px;
+    width:60px;
+    padding-left: 1%;
+}
+.footer>.social-media>span>a>img{
     height: 20px;
     width: 22px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.header>#h2{
+    padding-right:1%;
+}
+.footer>.social-media{
+    padding-right: 1%;
+}
+.footer>.contact-us{
+    padding-left:1%;
+}
+.footer>.copyright>span{
+    font-size: 10px;
+    vertical-align: baseline;
+}
+
+

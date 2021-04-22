@@ -14,8 +14,23 @@ body{
     height:200px;
     width:250px;
 }
-#hotel-list{
+.content>.list-view>#hotel-list{
     margin:2%;
     background-color:rgb(132,136,139);
     width:40%;
+}
+.view-option{
+    display: flex;
+    justify-content: center;
+}
+.view-option>span{
+    padding:2%;
+    font-weight: bold;
+}
+.list-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+.map-view{
+    display: none;
 }

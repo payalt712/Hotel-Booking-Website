@@ -7,21 +7,19 @@
     </head>
     <body>
         <div class="wrapper">
-            <header>
-                <a href="index.html" target="_self"><img src="assests/images/logo.png" alt="logo"></a>
-                <a href="login.html" target="_self">Login</a>
-            </header> 
+            <div class="header">
+                <div id="h1"><a href="index.html" target="_self"><img class="header-logo" src="assests/images/logo.png" alt="logo"></a></div>
+                <div id="h2"><a href="login.html" target="_self">Login</a></div> 
+            </div> 
 
             <div class="content">
                 <div class="view-option">
-                    <ul>
-                        <li><a href="#list-view">List View</a></li>
-                        <li><a href="#map-view">Map View</a></li>
-                    </ul>
+                        <span><a href="#list-view">List View</a></span>
+                        <span><a href="#map-view">Map View</a></span>
                 </div>
 
                 <div class="list-view" id="list-view">
-                    <a href="detail.html">
+                    <a href="detail.html" id="hotel-list">
                         <div class="radisson" id="hotel-list">
                             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
                             <h3>Radisson Blu Hotel</h3>
@@ -51,9 +49,14 @@
                 </div>
             </div>
 
-            <footer>
+            <div class="footer">
                 <div class="contact-us">
                     <a href="contact.html" target="_self">Contact Us</a>
+                </div>
+                
+                <div class="copyright">
+                    <span>&#169;</span>
+                    <span> 2020 ROOM SEARCH PVT. LTD.</span>
                 </div>
 
                 <div class="social-media">
@@ -70,12 +73,7 @@
                         </a>
                     </span>
                 </div>
-
-                <div class="copyright">
-                    <span>&#169;</span>
-                    <span> 2020 ROOM SEARCH PVT. LTD.</span>
-                </div>
-            </footer>
+            </div>
 
         </div>    
     </body>
