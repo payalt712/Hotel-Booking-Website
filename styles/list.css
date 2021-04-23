@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 4%;
+    margin-top:4%;
 }
 .list-view>#hotel-list>.image>img, .list-view>a>#hotel-list>.image>img{
     height:200px;
@@ -15,32 +16,39 @@
     height: 200px;
 }
 .view-option{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: fixed;
+    left:45%;
+    
+}
+.map-view{
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     justify-content: center;
 }
-.view-option>#one{
-    padding-right:1%;
-    padding-top: 2%;
-}
-.view-option>#two{
-    padding-left:1%;
-    padding-top: 2%;
-}
-.view-option>div{
-    font-weight: bold;
-}
+
 .list-view{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
-.map-view{
-    display: none;
-}
+
 .list-view>#hotel-list, .list-view>a>#hotel-list{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.list-view>a>#hotel-list>.text-info, .list-view>#hotel-list>.text-info{
+.list-view>a>#hotel-list>.textDiv, .list-view>#hotel-list>.textDiv{
     padding-left: 3%;
 }
+.textDiv{
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.content>.list-view>#hotel-list:hover{
+    background-color: rosybrown;
+}
+

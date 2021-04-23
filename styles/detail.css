@@ -30,7 +30,7 @@ form{
 }
 .formDiv{
     flex-grow: 1; 
-    padding: 20px; 
+    padding: 5px; 
     border-left: 0px; 
     border-top: 1px;
     border-right: 1px; 
@@ -41,7 +41,7 @@ form{
 }
 .listSty{
    display: flex; 
-   padding: 1em;
+   padding: 0.5em;
 }
 .labelSty{
   flex:1;
