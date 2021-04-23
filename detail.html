@@ -13,26 +13,45 @@
             </div>  
 
             <div class="content">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
-                <form action="payment.html">
-                    <label for="adults">Adults:</label>
-                    <input type="number" name="adults" id="adults" min="1" required><br>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required autocomplete="off"><br>
-                    <label for="from">From Date:</label>
-                    <input type="date" name="from" id="from" required><br>
-                    <label for="to">To Date:</label>
-                    <input type="date" name="to" id="to" required><br>
-                    <label for="total">Total:</label>
-                    <input type="text" name="total" id="total" readonly><br>
-                    <input type="submit" value="Book Now">
-                </form>
-                
+                <div class="first-flex">
+                    <div class="image"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></div>
+                    <div class="formDiv">
+                            <form method="GET" action="payment.html" target="_self" autocomplete="off">
+                                <ul style="list-style-type: none;">
+                                    <li class="listSty">
+                                        <label class="labelSty" for="adults">Adults:</label>
+                                        <input class="inputSty" type="number" id="adults" value="1" min="1" name="adults" required ></br>
+                                    </li>
+                                    <li class="listSty">
+                                        <label class="labelSty" for="name">Name: </label>
+                                        <input class="inputSty" type="text" id="name" name="name" required/></br>
+                                    </li>
+                                    <li class="listSty">
+                                        <label class="labelSty"  for="fromDate" >From Date:</label>
+                                        <input class="inputSty" type="date" id="fromDate" name="fromDate" required/></br>
+                                    </li>
+                                    <li class="listSty">
+                                        <label class="labelSty" for="toDate">To Date:</label>
+                                        <input class="inputSty" type="date" id="toDate" name="toDate" required/></br>
+                                    </li>
+                                    <li class="listSty">
+                                        <label class="labelSty" for="total">Total:</label>
+                                        <input class="inputSty" type="number" id="total" name="total" readonly></br>
+                                    </li>
+                                    <li style="display: flex; padding: 1em; justify-content: center;">
+                                        <a href="payment.html" target="_self">
+                                        <button style="padding:10px" id="bookNow">Book Now</button> </a> 
+                                    </li>
+                                </ul>
+                            </form>
+                    </div>                   
+                </div>
+         
                 <div class="hotel-description">
                     <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
+                    <p style="font-family: cursive; font-weight: bold;">RATING</p>
                     <p>5 Star</p>
-                    <p>AMENITIES</p>
+                    <p style="font-family: cursive; font-weight: bold;">AMENITIES</p>
                     <p>
                       <ul>
                         <li>Room Service</li>
@@ -42,7 +61,7 @@
                         <li>Pool</li>
                       </ul>
                    </p>
-                   <h5>DESCRIPTION</h5>
+                   <h5 style="font-family: cursive;">DESCRIPTION</h5>
                    <p>Random Text. Random Text. Random Text. Random Text. Random Text. Random Text. Random Text.</p>
                 </div> 
 

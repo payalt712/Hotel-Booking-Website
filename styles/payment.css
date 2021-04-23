@@ -1,24 +1,43 @@
-.content>.image>img{
-    height: 500px;
-    width: 500px;
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.image{
-    background-color: rgb(132,136,139);
-    width: 50%;
-    height: 20%;
-    margin:auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 200px;
+    background-color: rgb(132, 136, 139);
+    overflow-y: auto;
+    
 }
-.payment-details{
-    margin:2% 2% 2% 2%;
+.content>.mainDiv>.image>img{
+    height: 200px;
+    width: 250px;
+    max-height: 300px;
+    max-width: 270px;
 }
-.amount-details{
-    margin:2% 2% 2% 2%;
-    border:1px solid black;
+.content>.mainDiv>.text{
+    padding-left:4% ;
+}
+.mainDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
     border-radius: 5px;
-    padding:1% 2%;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rosybrown;
 }
-.content>.pay{
+.midSpace{
+    padding-top:2%;
     padding-bottom: 2%;
 }
