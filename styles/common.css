@@ -9,7 +9,12 @@ body{
     height:100%;
     width:100%;
 }
+.content{
+    height: 100%;
+    overflow-y: auto;
+}
 .footer{
+    width: 100%;
     background-color: rosybrown;
     position: sticky;
     bottom: 0px;
@@ -21,6 +26,7 @@ body{
     height:64px;
 }
 .header{
+    width: 100%;
     background-color: rosybrown;
     position: sticky;
     top: 0;
@@ -59,6 +65,14 @@ a{
 }
 .footer>.copyright>span{
     font-size: 10px;
+}
+.loaderDiv{
+    position: relative;
+    display: none;
+}
+.loaderDiv>iframe{
+    width: 100%;
+    align-self: center;
 }
 
 

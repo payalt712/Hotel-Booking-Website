@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    justify-content: flex-start;
+    overflow-y: auto;
 }
 .mainDiv{
     display: flex;
     flex-direction: row;
-    width: 40%;
-    height: 200px;
+    width: auto;
+    height: auto;
     background-color: rgb(132, 136, 139);
-    overflow-y: auto;
+    margin-bottom: 4%;
+    margin-top: 4%;
     
 }
 .content>.mainDiv>.image>img{
@@ -36,8 +36,62 @@
     margin-left: 2%;
     margin-right: 2%;
     background-color: rosybrown;
+    margin-bottom: 4%;
 }
-.midSpace{
-    padding-top:2%;
-    padding-bottom: 2%;
+
+@media screen and (max-width: 576px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-y: auto;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        background-color: rgb(132, 136, 139);
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    .content>.mainDiv>.text{
+        padding:4% ;
+    }
+    .mainDiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rosybrown;
+        margin-bottom: 4%;
+    }
+    .pay{
+        align-self: center;
+        padding:2%;
+    }
+    .image, .detailDiv, .amount-details{
+        padding: 2%;
+    }
+
+    @media screen and (min-width: 576px) and (max-width:768px){
+        .mainDiv{
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: auto;
+            background-color: rgb(132, 136, 139);
+            margin-bottom: 4%;
+            
+        }
+    }
 }
