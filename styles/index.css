@@ -29,7 +29,7 @@ input{
 }
 .city-images{
     padding-top: 4%;
-    padding-bottom: 4%; 
+    /*padding-bottom: 4%; */
     display: flex;
     justify-content: space-around;
 }
@@ -109,7 +109,7 @@ textarea:focus, input:focus{
     }
     .city-images{
         padding-top: 4%;
-        padding-bottom: 4%; 
+        /*padding-bottom: 4%;*/ 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -195,7 +195,7 @@ textarea:focus, input:focus{
         margin-left: 15%;
         margin-right: 15%;
         padding-top: 4%;
-        padding-bottom: 4%; 
+        /*padding-bottom: 4%;*/
         display: flex;
         flex-direction: row;
         justify-content: space-around;
