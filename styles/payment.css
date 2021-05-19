@@ -38,6 +38,9 @@
     background-color: rosybrown;
     margin-bottom: 4%;
 }
+.detailDiv>p>span{
+    font-family: cursive;
+}
 
 @media screen and (max-width: 576px){
     .content{
